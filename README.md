@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### 'Personal Notes For Environment' ###
+1. run command 'startenv' to start the virtual environment
+2. run the commands to let website through to host machine 
+    a. firewall-cmd --permanent --add-port=3000/tcp
+    b. firewall-cmd --reload
+3. Within VirtualBox manager I changed the Network Adapter to 'Bridged Adapter' so that the VM could talk to the internet and the Host machine
