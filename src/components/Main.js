@@ -6,11 +6,11 @@ import Nutrition from "./Nutrition";
 import ContactUs from "./ContactUs";
 
 const Main = () => (
-  <Routes>
-    <Route exact path="/" component={Home} />
-    <Route path="/workout" component={Workout} />
-    <Route path="/nutrition" component={Nutrition} />
-    <Route path="/contact" component={ContactUs} />
-  </Routes>
+    <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/workout" element={<Workout />} />
+        <Route path="/nutrition" element={<Nutrition />} />
+        <Route path="/contact" element={<ContactUs />} />
+    </Routes>
 );
 export default Main;
