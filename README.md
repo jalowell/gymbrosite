@@ -76,3 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     a. firewall-cmd --permanent --add-port=3000/tcp
     b. firewall-cmd --reload
 3. Within VirtualBox manager I changed the Network Adapter to 'Bridged Adapter' so that the VM could talk to the internet and the Host machine
+4. If the "On Your Network" option is not showing up when you run npm start it is because you are not connected to the internet
