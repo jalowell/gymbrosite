@@ -1,4 +1,6 @@
 import { Component } from "react";
+import "../styling/Workout.css";
+
 
 export default class Nutrition extends Component {
     render() {

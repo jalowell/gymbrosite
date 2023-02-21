@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.brandName {
+  margin-left: 200px;
+  margin-right: 100px;
+  font-size: larger;
+  font-family: 'Courier New', monospace;
+}
+
+#motto h1 {
+  font-size: small;
+}
+
+.navbar-nav a {
+  color: white;
+}

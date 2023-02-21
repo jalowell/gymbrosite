@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "./components/Main";
 import { Navbar, Nav } from "react-bootstrap";
-import "./App.css";
+import "./styling/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, NavLink } from "react-router-dom";
 
@@ -18,18 +18,22 @@ function App() {
             variant="dark"
           >
             <Navbar.Brand as={NavLink} to="/">
-              Justin Lowell
+
+              <div id="motto" className="brandName">
+                MuscleMinds Gym
+                <h1>Place for the Strong & Smart</h1>
+              </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="collapsedNav">
-              <Nav className="mr-auto">
-                <Nav.Link as={NavLink} to="/workout" className="navBarElement">
+              <Nav className="mr-auto" id="navElements">
+                <Nav.Link as={NavLink} to="/workout" className="navBarElement blue-text">
                   Workout
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/nutrition" className="navBarElement">
+                <Nav.Link as={NavLink} to="/nutrition" className="navBarElement blue-text">
                   Nutrition Plans
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/contact" className="navBarElement">
+                <Nav.Link as={NavLink} to="/contact" className="navBarElement blue-text">
                   Contact Us
                 </Nav.Link>
               </Nav>

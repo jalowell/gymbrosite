@@ -1,4 +1,5 @@
 import { Component } from "react";
+import "../styling/Workout.css";
 
 export default class Workout extends Component {
     render() {

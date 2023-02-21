@@ -1,0 +1,32 @@
+.card {
+    background-image: url(../resources/gmyPicture.jpg);
+    background-size: cover;
+    border-radius:0 !important;
+}
+
+.cardBody {
+    height: 800px;
+}
+
+.cardBody div {
+    margin-right: 500px;
+    color: white;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.cardBody h1 {
+    font-weight: 900;
+    
+}
+
+.cardBody h2 {
+    font-size: large;
+    margin-top: -10px;
+    
+}
+
+.cardBody p {
+    font-size: large;
+    
+}
